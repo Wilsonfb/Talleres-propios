@@ -2,7 +2,7 @@ class Empresa:
     def __init__(self, nombre, dias):
         self.nombre = nombre
         self.dias = dias
-        self.salario_diario = 45000
+        self.salario_diario = 46000
     def calcular_salario(self):
         return self.dias * self.salario_diario
 empleado1 = Empresa(nombre="Cristiano", dias=20)
